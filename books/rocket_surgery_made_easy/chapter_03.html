@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chapter 3 - Rocket surgery made easy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/ico" href="../../logo/TwoBooks.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../css/mystyle.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img src="../../logo/TwoBooks.ico" alt="Two Books" width = "50"/>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li ><a href="../../index.html">Home</a></li>
+          <li><a href="../dont_make_me_think/index.html">Don't make me think</a></li>
+          <li class="active"><a href="index.html">Rocket surgery made easy</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <!-- <form class="navbar-form navbar-right" action="">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                </div>
+              </div>
+            </form> -->
+          </li>
+        </ul>  
+      </div>
+    </div>
+  </nav>
+
+  <div class="container" style="width:100%">
+    <div class="row" >
+
+      <!-- Left menu -->
+      <div class="col-md-2" id="leftMenu">
+
+        <div class="panel-group">
+          <div class="panel panel-info">
+
+            <!-- Chapter -->
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#dontmakemethink_content_collapse">
+                  Content
+                </a>
+              </h4>
+            </div>
+
+            <div id="dontmakemethink_content_collapse" class="panel-collapse collapse in">
+              <ul class="menuLeft">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="chapter_01.html">Chapter 1</a></li>
+                <li><a href="chapter_02.html">Chapter 2</a></li>
+                <li><a class="active" href="chapter_03.html">Chapter 3</a></li>
+                <li><a href="chapter_04.html">Chapter 4</a></li>
+                <li><a href="chapter_05.html">Chapter 5</a></li>
+                <li><a href="chapter_06.html">Chapter 6</a></li>
+                <li><a href="chapter_07.html">Chapter 7</a></li>
+                <li><a href="chapter_08.html">Chapter 8</a></li>
+                <li><a href="chapter_09.html">Chapter 9</a></li>
+                <li><a href="chapter_10.html">Chapter 10</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main content -->
+      <div class="col-md-10" id="rightMenu">
+        <div class="panel-group">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title pull-left">Chapter 03: A Plan You Can Actually Follow</h3>
+              <div class="pull-right">                
+                <a class="buttonNavigation next round" href="chapter_02.html">&laquo; Previous</a>  
+                <a class="buttonNavigation next round" href="chapter_04.html">Next &raquo;</a>
+              </div>                   
+              <div class="clearfix"></div>
+            </div>
+            <div class="panel-body" style="padding-top:0;">
+              <p>Most people don’t do the usability testing is because they think it has to be a big project</p>
+              <p>In fact, it’s doable and it helps you to focus on finding and fixing the most important problems first.</p>
+              <p>So the suggested plan for the usability testing should be: <strong>a morning a month</strong></p>
+
+              <p>Here is an overview of the differences between Big Project Test and Do-It-Yourself testing:</p>
+
+              <table id="t01">
+                <tr>
+                  <th></th>
+                  <th>THE BIG PROJECT TEST</th> 
+                  <th>DO-IT-YOURSELF TESTING</th>
+                </tr>
+                <tr>
+                  <td>Time spent for each round of testing</td>
+                  <td>1 day for designing test cases then 1–2 days of tests, then a week to prepare a briefing, depends on process to decide what to fix</td>
+                  <td>
+                    One morning a month includes designing test scripts, testing, debriefing, and deciding what to fix
+                  </td>
+                </tr>
+                <tr>
+                  <td>When does the test start?</td>
+                  <td>When the site is almost done</td>
+                  <td>Continually, throughout the process of website development</td>
+                </tr>
+
+                <tr>
+                  <td>Number of rounds of testing</td>
+                  <td>Only one or two per project, because of time and expense</td>
+                  <td>One morning every month</td>
+                </tr>
+
+                <tr>
+                  <td>Number of testers in each round</td>
+                  <td>5–8 members, sometimes 10</td>
+                  <td>3 members</td>
+                </tr>
+<!-- 
+                <tr>
+                  <td>WHO DO YOU TEST WITH?</td>
+                  <td>Recruit carefully to find people who are like your target audience</td>
+                  <td>
+                    Recruit loosely, if necessary
+                    Doing testing frequently is more important than testing “actual” users
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>WHERE DO YOU TEST?</td>
+                  <td>Held off-site, in a rented facility with an observation room with a one-way mirror</td>
+                  <td>Held on-site, with observers in any conference room using screen sharing software to watch</td>
+                </tr>
+
+                <tr>
+                  <td>WHO WATCHES?</td>
+                  <td>2–3 days of off-site testing means not many people will observe firsthand</td>
+                  <td>Half day of on-site testing means more people can see the tests “live”</td>
+                </tr>
+
+                <tr>
+                  <td>REPORTING</td>
+                  <td>Someone takes at least a week to prepare a briefing</td>
+                  <td>A 1–2 page email summarizes decisions made during the debriefing</td>
+                </tr>
+
+                <tr>
+                  <td>WHO IDENTIFIES THE PROBLEMS?</td>
+                  <td>The person running the tests usually analyzes the results and recommends changes</td>
+                  <td>The entire development team and any interested stakeholders compare notes and decide what to fix over lunch the same day</td>
+                </tr>
+
+                <tr>
+                  <td>PRIMARY PURPOSE</td>
+                  <td>A list of many problems (sometimes hundreds), categorized and prioritized by severity</td>
+                  <td>A short list of the most serious problems and a commitment to fixing them before the next round of testing</td>
+                </tr>
+
+                <tr>
+                  <td>RECORD VIDEO OF THE PARTICIPANT’S FACE?</td>
+                  <td>Yes. Observers need to see the participants’ reactions to things (especially frustration)</td>
+                  <td>No. Seeing the participants’ actions on the screen and hearing them clearly is all that’s needed</td>
+                </tr>
+
+                <tr>
+                  <td>OUT-OF-POCKET COSTS</td>
+                  <td>$5,000 to $15,000 per round if you hire someone to do it</td>
+                  <td>A few hundred dollars per round</td>
+                </tr> -->
+              </table>
+
+            </div>
+          </div>
+        </div>
+      </div>    
+
+    </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+/* =================== Body START =================== */
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 90%;
+    /*height: 100%;*/
+    background-color: white;
+    margin: 15px auto;
+    padding: 20px;
+    border: 3px solid black;
+    box-shadow: 0 9px 18px 9px;
+
+    min-width: 50%;        /* Suppose you want minimum width of 1000px */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 70%;*/
+}
+/* =================== Body END =================== */
+
+/* =================== Button Next, Previous START =================== */
+.buttonNavigation {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+
+.next {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.round {
+    border-radius: 5%;
+}
+
+/* =================== Button Next, Previous END =================== */
+
+/* =================== Menu left START =================== */
+
+/* .panel-info .panel-heading {
+    display: block;
+    background-color: black;
+} */
+
+.panel-info {
+    border-color: #bce8f1;
+}
+
+.panel-body-menuLeft {
+    width: 100%;
+}
+
+.menuLeft {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background-color: #f1f1f1;
+    border: 0px solid #555;
+}
+
+.menuLeft li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.menuLeft li {
+    text-align: left;
+    border-bottom: 0px solid #555;
+}
+
+.menuLeft li:last-child {
+    border-bottom: none;
+}
+
+.menuLeft li a.active {
+    background-color: #4CAF50;
+    color: yellow;
+}
+
+.menuLeft li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* =================== Menu Left END =================== */
+
+/* =================== Index START =================== */
+#menu1 ul li a{
+    display: block;
+    color:#000;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+#menu1 li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+/* =================== Index END =================== */
+
+
+p {
+	font-size: 14pt;
+}
+
+ul li {
+	font-size: 10pt;
+}
+
+ol li {
+	font-size: 10pt;	
+}
+
+div #leftmenubtn {
+	background: url("../images/bg_reader_ltcoltabOpen.gif");
+}
+
+.row .col-md-6 .thumbnail {
+	border: 0;
+}
+
+
+.form-control { display: inline-block !important; }
+
+/* =================== Rocket Surgery Made Easy START =================== */
+table {
+    width:100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+
+/* =================== Rocket Surgery Made Easy END =================== */
+
+/* =================== Website Logo START =================== */
+#WebLogo {
+    margin-right: 12px;
+}
+/* =================== Website Logo END =================== */
+
+/* =================== Image START =================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* =================== Image END =================== */
+
+/* =================== Google Search START =================== */
+.cse .gsc-control-cse, .gsc-control-cse {
+    padding: 0;
+}
+/* =================== Google Search END =================== */
+
+/* =================== Page Content START =================== */
+.btn-info {
+    /*background-color: #4CAF50;*/
+}
+
+#content {
+    width: 100%;
+}
+/* =================== Page Content END =================== */
+
+
+
+
+
+
+
